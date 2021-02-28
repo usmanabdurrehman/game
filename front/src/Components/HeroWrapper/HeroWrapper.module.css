@@ -1,0 +1,19 @@
+.heroWrapper{
+	height: 500px;
+	background: url('./background.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.heroContainer{
+	height: 100%;
+	display:flex;
+	align-items: center;
+	justify-content: flex-start;
+	color:var(--white);
+}
+
+.heroWrapper h1{
+	font-size: 48px;
+}

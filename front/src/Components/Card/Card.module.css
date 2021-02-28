@@ -1,0 +1,10 @@
+.card{
+	height: 250px;
+	border-radius: 5px;
+	box-shadow: 3px 3px 7px lightgray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: linear-gradient(to right, #090d79, #fc00ff); 
+	color:white;
+}

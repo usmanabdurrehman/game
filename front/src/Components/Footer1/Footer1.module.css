@@ -1,0 +1,13 @@
+.footer1{
+	height: 60px;
+	background-color: var(--primary);
+	color:var(--white);
+	font-size: 16px;
+}
+
+.footer1container{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
