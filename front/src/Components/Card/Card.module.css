@@ -2,9 +2,30 @@
 	height: 250px;
 	border-radius: 5px;
 	box-shadow: 3px 3px 7px lightgray;
+	color:white;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.cardPrice{
+	height: 125px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: linear-gradient(to right, #090d79, #fc00ff); 
-	color:white;
+}
+
+.cardServices{
+	height: 125px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.card:hover{
+	transform:scale(1.02);
+}
+
+.card h1{
+	font-size: 48px;
 }
